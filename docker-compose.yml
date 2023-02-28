@@ -2,8 +2,8 @@ version: "3.7"
 
 services:
   pastebin:
-    image: mkaczanowski/pastebin:latest
-    container_name: pastebin
+    image: #IMAGE_NAME#
+    container_name: #APP_NAME#
     volumes:
       - $DOCKERDIR/pastebin:/var/lib/pastebin
     restart: unless-stopped
